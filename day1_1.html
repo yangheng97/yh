@@ -1,0 +1,139 @@
+<!DOCTYPE html>/*质量工程管理平台*/
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+					margin:0px;
+					padding:0px;
+			}
+			#head{/*主体的高度*/
+					margin:0px;
+					width:100%;
+					height:1000px;
+					border:solid 1px yellow;
+			}
+			#im{/*第一个div中的背景图片*/
+					width:100%;
+					height:100px;
+					background-color: blue;
+					background-image:url(img/logo.png) ;
+					background-repeat: no-repeat;
+					border:solid 3px black;
+				}	
+			#light{/*小选框的位置和大小*/
+					width:300px;
+					height:100px;
+					float:right;
+					border:solid 1px #FF0000;
+			}
+			
+			#span{ /*图片的位置*/
+					
+					float:right;
+			}
+			#xuanxiang{
+						text-align:center ;
+						color:aliceblue;
+			}
+			#biankuang{/*小方框*/
+						width:200px;
+						height:25px;
+						border:solid 1px #F0F8FF;
+						background-color: #0000FF;
+						margin-left: 20%;
+						color:#F0F8FF;			
+			}
+			#button{/*定义在小方框内的通知。红色数字*/
+						width:auto;
+						height:auto;
+						background-color:blue;
+						border:solid 1px aliceblue;
+						color:#FF0000;
+			}
+			
+			#divmain{/*body方法的构造块的大小*/
+				margin:0px;
+				width:100%;
+				height:900px;
+				border:solid 1px blue;
+			}
+			#divreft{/*左边小边框*/
+				width:20%;
+				height:500px;
+				border:solid 1px palevioletred;
+			}
+			#divright{/*右边小边框*/
+				width:80%;
+				height:500px;
+				border:solid 1px red ;
+				float:right;
+			}
+			#reft-1{
+				width:100%;
+				height:40px;
+				background-image: url(img/menu.gif) ;
+				background-repeat: no-repeat;
+				background-color: #0000FF;
+				border:solid 1px #FF0000;
+			}
+			#right-1{
+				width:100%;
+				height:40px;
+				border:solid 1px #FFFF00;
+				font-size: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="head">
+			<div id="im">
+				
+				
+				<div id="light">
+					<p id="xuanxiang">
+						&nbsp;&nbsp;&nbsp;&nbsp;帮助&nbsp;&nbsp;&nbsp;&nbsp;
+												关于&nbsp;&nbsp;&nbsp;&nbsp;
+												退出&nbsp;&nbsp;&nbsp;&nbsp;
+					</p>	
+					<p id="biankuang"><form>
+						<img src="img/Female.gif"/>admin
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						通知
+						<input id="button" type="button"value="0"/>个
+						
+					</form></p>
+				</div>
+				<div>
+				
+					<span id="span">
+						<img src="img/photo.png"/>
+					</span>	
+				</div>
+		</div>
+			<div id="divmain">
+				<div id="divright"><!--右边主界面-->
+					<div id="right-1"> 当前位置:</div><!--固定位置 -->
+					
+					<div><!--定义选择框-->
+						<form>
+							<table>
+								
+							</table>
+							
+						</form>
+					</div>
+					
+				</div>
+				<div id="divreft">
+					<div  id="reft-1"></div>
+				</div>
+				
+			</div>
+				
+			
+			
+		</div>
+	</body>
+</html>
